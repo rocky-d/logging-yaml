@@ -28,5 +28,9 @@ classifiers = [
 ]
 dependencies = ["pyyaml>=6.0.3"]
 
+[project.urls]
+Homepage = "https://pypi.org/project/logging-yaml/"
+Repository = "https://github.com/rocky-d/logging-yaml"
+
 [dependency-groups]
 dev = ["python-dotenv>=1.0.1", "ruff>=0.15.0", "ty>=0.0.15"]
